@@ -14,7 +14,7 @@
 */
 
 $router->get('/authors', 'AuthorController@index');
-$router->get('/authors/{author', 'AuthorController@show');
+$router->get('/authors/{author}', 'AuthorController@show');
 $router->post('/authors', 'AuthorController@store');
 $router->put('/authors/{author}', 'AuthorController@update');
 $router->patch('/authors/{author}', 'AuthorController@update');
